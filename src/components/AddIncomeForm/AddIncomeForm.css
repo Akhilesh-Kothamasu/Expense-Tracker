@@ -1,0 +1,64 @@
+.income-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .income-modal-content {
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    width:538px;
+    height:164px;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .income-heading{
+    width:178px;
+    height:38px;
+    font-family: Ubuntu;
+font-size: 30px;
+font-weight: 700;
+line-height: 34.47px;
+text-align: left;
+color:rgba(0, 0, 0, 1);
+margin-left: 7px;
+  }
+
+  .income-form input{
+    height:51px;
+    width:217px;
+    border-radius: 15px;
+    padding-left:20px;
+    margin-right: 5px;
+    margin-left: 7px;
+  }
+.add-income{
+  height:51px;
+  width:145px;
+  border-radius: 15px;
+  background-color: rgba(244, 187, 74, 1);
+}
+.income-cancel{
+  height:51px;
+  width:112px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+  
